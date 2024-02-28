@@ -1,0 +1,77 @@
+#chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: none;
+    z-index: 9999; /* Setze einen hohen z-index-Wert */
+}
+
+#chatbot-header {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+#chatbot-title {
+    font-weight: bold;
+    font-size: 24px; /* Größere Schriftgröße */
+}
+
+#chatbot-close {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+#chatbot-body {
+    padding: 20px;
+}
+
+#chatbot-messages {
+    max-height: 400px; /* Noch größere Höhe für die Nachrichten */
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+#open-chatbot-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+}
+#user-input {
+    width: calc(100% - 40px); /* Volle Breite abzüglich 40px für den Rand */
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc; /* Größerer grauer Rand */
+    border-radius: 10px;
+    font-size: 18px; /* Größere Schriftgröße */
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
