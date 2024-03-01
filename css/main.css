@@ -402,6 +402,45 @@ a:hover {
 	font-weight: 700;
 }
 
+#Login {
+	text-align: center;
+	padding-top: 66px;
+	padding-bottom: 66px;
+	background-color: #fff;
+}
+
+#Login h1 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+
+#Login h2 {
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+#Login p {
+	margin-top: 3px;
+	font-size: 18px;
+}
+
+#Login .Loginlist {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding-top: 66px;
+	padding-bottom: 66px;
+}
+
+#Login .Loginblock {
+	transform: none;
+	transition: all .2s ease-in;
+}
+
+.Loginblock a {
+	font-weight: 700;
+}
 
 footer {
 	background-color: #11171e;
