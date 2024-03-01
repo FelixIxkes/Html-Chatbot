@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Projekt Chatbots</title>
 
@@ -14,23 +14,31 @@
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-grid.min.css">
 	<link rel="stylesheet" type="text/css" href="js/bootstrap/bootstrap.min.js">
 
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+		integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	<link rel="stylesheet" href="./pagebot/styles.css">
+	<link rel="stylesheet" href="/Y2UKyN5_ICz7il40" />
 </head>
+
+<<<<<<< HEAD
+</head>
+=======
+>>>>>>> 6f03c211cec3d9332b752f000104932aeac9374f
 <body>
-	
-	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button> 
-	
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
 	<!-- Navbar -->
 	<div class="topnav" id="myTopnav">
 		<div class="max-width">
+<<<<<<< HEAD
 		      <img src="C:\Users\Felix\OneDrive\Desktop\Webseite\img\Logo.JPEG" alt="Logo" style="width: 7%; height: 7%; padding-bottom: 25px; padding-top: 25px; float: left;"></a> 
 			  <a href="#head">Home</a>
 			  <a href="#about">vorteile&nbsp;</a>
@@ -39,19 +47,44 @@
 			  <a href="#staff">FAQ&nbsp;</a>
 		      <a href="#Login">LOGIN&nbsp;</a>
 		  	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+=======
+			<img src="./img/Logo.JPEG" alt="Logo"
+				style="width: 7%; height: 7%; padding-bottom: 25px; padding-top: 25px; float: left;"></a>
+			<a href="#head">Home</a>
+			<a href="#about">vorteile&nbsp;</a>
+			<a href="#gamemodes">Chatbots&nbsp;</a>
+			<a href="#vote">info&nbsp;</a>
+			<a href="#staff">FAQ&nbsp;</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+>>>>>>> 6f03c211cec3d9332b752f000104932aeac9374f
 		</div>
 	</div>
 	<!-- End Navbar -->
+	<!-- Chatbot-Container -->
+	<div id="chatbot-container">
+		<div id="chatbot-header">
+			<div id="chatbot-title">Chatbot</div>
+			<div id="chatbot-close" onclick="toggleChatbot()">×</div>
+		</div>
+		<div id="chatbot-body">
+			<div id="chatbot-messages"></div>
+			<input type="text" id="user-input" placeholder="Deine Nachricht...">
+			<button onclick="sendMessage()">Senden</button>
+		</div>
+	</div>
+	<button id="open-chatbot-btn" onclick="openChatbot()">🤖</button>
 
 	<!-- Header (Banner) -->
 	<header id="head" class="parallax">
 		<h1>PROJECT X</h1>
 		<h3>Chatbots</h3>
-		
+
 		<div style="position: fixed; top: 0; width: 100%; height: 100%; z-index: -1;">
-	<video autoplay muted loop id="myVideo">
-  <source src="https://video.wixstatic.com/video/3e1f42_2db10151c57a44f6970521e36b2226a7/1080p/mp4/file.mp4" type="video/mp4">
-</video> 
+			<video autoplay muted loop id="myVideo">
+				<source
+					src="https://video.wixstatic.com/video/3e1f42_2db10151c57a44f6970521e36b2226a7/1080p/mp4/file.mp4"
+					type="video/mp4">
+			</video>
 		</div>
 	</header>
 	<!-- End Header -->
@@ -121,11 +154,21 @@
 		<div class="row fixed-width">
 			<div class="col-md mode">
 				<h2>WhatsApp Chatbot</h2>
-				<p>Wir möchten Ihnen unseren WhatsApp Chatbot vorstellen, eine fortschrittliche Lösung, die darauf abzielt, Ihnen zeitnahe und präzise Informationen zu liefern. Unser Chatbot ist rund um die Uhr verfügbar und bietet Ihnen direkten Zugriff auf umfassende Auskünfte über unsere Produkte und Dienstleistungen, direkt über WhatsApp. Durch die Nutzung modernster Technologie ist unser Chatbot in der Lage, auf eine Vielzahl von Anfragen effizient zu reagieren. Dies umfasst detaillierte Produktinformationen, Dienstleistungsdetails und Antworten auf häufig gestellte Fragen. Unsere Priorität ist es, Ihnen eine nahtlose und benutzerfreundliche Kommunikationserfahrung zu bieten. Egal, ob Sie spezifische Informationen suchen oder allgemeine Anfragen haben, unser WhatsApp Chatbot ist darauf programmiert, Ihnen zuverlässige und aktuelle Informationen zur Verfügung zu stellen. Wir laden Sie ein, diese innovative Kommunikationsmethode zu nutzen, um Ihren Informationsbedarf einfach und unkompliziert zu decken.</p>
+				<p>Wir möchten Ihnen unseren WhatsApp Chatbot vorstellen, eine fortschrittliche Lösung, die darauf
+					abzielt, Ihnen zeitnahe und präzise Informationen zu liefern. Unser Chatbot ist rund um die Uhr
+					verfügbar und bietet Ihnen direkten Zugriff auf umfassende Auskünfte über unsere Produkte und
+					Dienstleistungen, direkt über WhatsApp. Durch die Nutzung modernster Technologie ist unser Chatbot
+					in der Lage, auf eine Vielzahl von Anfragen effizient zu reagieren. Dies umfasst detaillierte
+					Produktinformationen, Dienstleistungsdetails und Antworten auf häufig gestellte Fragen. Unsere
+					Priorität ist es, Ihnen eine nahtlose und benutzerfreundliche Kommunikationserfahrung zu bieten.
+					Egal, ob Sie spezifische Informationen suchen oder allgemeine Anfragen haben, unser WhatsApp Chatbot
+					ist darauf programmiert, Ihnen zuverlässige und aktuelle Informationen zur Verfügung zu stellen. Wir
+					laden Sie ein, diese innovative Kommunikationsmethode zu nutzen, um Ihren Informationsbedarf einfach
+					und unkompliziert zu decken.</p>
 			</div>
 			<!-- Gamemode Image -->
 			<div class="col-md img">
-				<img class="res-img" src="C:\Users\Felix\OneDrive\Desktop\Webseite\img\3D whatsapp.PNG">
+				<img class="res-img" src="./img/3D whatsapp.png">
 			</div>
 			<!-- End Gamemode Image -->
 		</div>
@@ -134,13 +177,24 @@
 			<!-- Second Gamemode -->
 			<div class="row fixed-width">
 				<!-- Image Second Gamemode -->
-					<div class="col-md img">
-						<img class="res-img" src="C:\Users\Felix\OneDrive\Desktop\Webseite\img\3D Discord.PNG">
-					</div>
+				<div class="col-md img">
+					<img class="res-img" src="./img/3D Discord.png">
+				</div>
 				<!-- End Image Second Gamemode -->
 				<div class="col-md mode">
 					<h2>Discord Chatbot</h2>
-					<p>Es ist uns eine Freude, Ihnen unseren Discord Chatbot vorzustellen, eine hochmoderne Lösung, die entwickelt wurde, um Ihnen einen direkten und effizienten Informationszugang über Discord zu bieten. Dieser Chatbot ist speziell für die Bedürfnisse unserer Nutzer konzipiert und bietet rund um die Uhr Unterstützung. Mit unserem Discord Chatbot profitieren Sie von einer sofortigen Antwortfunktion auf Anfragen bezüglich unserer Produkte und Dienstleistungen sowie hilfreiche Informationen zu häufig gestellten Fragen. Durch die Integration in Discord, eine Plattform, die für ihre benutzerfreundliche Kommunikation bekannt ist, streben wir danach, den Informationsaustausch zu vereinfachen und die Interaktion mit unseren Kunden zu verbessern. Der Chatbot ist mit fortschrittlichen Algorithmen ausgestattet, die es ihm ermöglichen, Anfragen präzise zu verstehen und darauf zu reagieren, wodurch eine nahtlose und interaktive Erfahrung sichergestellt wird. Wir laden Sie herzlich ein, die Vorteile unseres Discord Chatbots zu entdecken und eine neue Stufe der Kundenkommunikation zu erleben.</p>
+					<p>Es ist uns eine Freude, Ihnen unseren Discord Chatbot vorzustellen, eine hochmoderne Lösung, die
+						entwickelt wurde, um Ihnen einen direkten und effizienten Informationszugang über Discord zu
+						bieten. Dieser Chatbot ist speziell für die Bedürfnisse unserer Nutzer konzipiert und bietet
+						rund um die Uhr Unterstützung. Mit unserem Discord Chatbot profitieren Sie von einer sofortigen
+						Antwortfunktion auf Anfragen bezüglich unserer Produkte und Dienstleistungen sowie hilfreiche
+						Informationen zu häufig gestellten Fragen. Durch die Integration in Discord, eine Plattform, die
+						für ihre benutzerfreundliche Kommunikation bekannt ist, streben wir danach, den
+						Informationsaustausch zu vereinfachen und die Interaktion mit unseren Kunden zu verbessern. Der
+						Chatbot ist mit fortschrittlichen Algorithmen ausgestattet, die es ihm ermöglichen, Anfragen
+						präzise zu verstehen und darauf zu reagieren, wodurch eine nahtlose und interaktive Erfahrung
+						sichergestellt wird. Wir laden Sie herzlich ein, die Vorteile unseres Discord Chatbots zu
+						entdecken und eine neue Stufe der Kundenkommunikation zu erleben.</p>
 				</div>
 			</div>
 			<!-- End Second Gamemode -->
@@ -149,11 +203,21 @@
 		<div class="row fixed-width">
 			<div class="col-md mode">
 				<h2>Telegram Chatbot</h2>
-				<p>Diese innovative Lösung ist darauf ausgerichtet, Ihnen und Ihren Kunden schnellen und präzisen Zugang zu Informationen zu gewährleisten, jederzeit und überall über Telegram. Unser Telegram Chatbot nutzt fortschrittliche Technologien, um auf eine breite Palette von Anfragen reagieren zu können. Von detaillierten Auskünften über unsere Produkte und Dienstleistungen bis hin zu sofortigen Antworten auf häufig gestellte Fragen – unser Chatbot ist darauf programmiert, Ihre Informationsbedürfnisse effizient zu befriedigen. Die Implementierung dieses Chatbots zielt darauf ab, die Kommunikation zwischen uns und unseren Kunden zu vereinfachen und zu optimieren. Durch die Bereitstellung von Informationen in Echtzeit über Telegram ermöglicht unser Chatbot eine effektive und interaktive Kundenbetreuung. Wir ermutigen Sie, diesen modernen Kommunikationskanal zu nutzen, um jederzeit einfachen Zugang zu den benötigten Informationen zu erhalten. Entdecken Sie, wie unser Telegram Chatbot Ihre Informationsanfragen reibungslos und unkompliziert erfüllt.</p>
+				<p>Diese innovative Lösung ist darauf ausgerichtet, Ihnen und Ihren Kunden schnellen und präzisen Zugang
+					zu Informationen zu gewährleisten, jederzeit und überall über Telegram. Unser Telegram Chatbot nutzt
+					fortschrittliche Technologien, um auf eine breite Palette von Anfragen reagieren zu können. Von
+					detaillierten Auskünften über unsere Produkte und Dienstleistungen bis hin zu sofortigen Antworten
+					auf häufig gestellte Fragen – unser Chatbot ist darauf programmiert, Ihre Informationsbedürfnisse
+					effizient zu befriedigen. Die Implementierung dieses Chatbots zielt darauf ab, die Kommunikation
+					zwischen uns und unseren Kunden zu vereinfachen und zu optimieren. Durch die Bereitstellung von
+					Informationen in Echtzeit über Telegram ermöglicht unser Chatbot eine effektive und interaktive
+					Kundenbetreuung. Wir ermutigen Sie, diesen modernen Kommunikationskanal zu nutzen, um jederzeit
+					einfachen Zugang zu den benötigten Informationen zu erhalten. Entdecken Sie, wie unser Telegram
+					Chatbot Ihre Informationsanfragen reibungslos und unkompliziert erfüllt.</p>
 			</div>
 			<!-- Image Third Gamemode -->
 			<div class="col-md img">
-				<img class="res-img" src="C:\Users\Felix\OneDrive\Desktop\Webseite\img\3D Telegram.PNG">
+				<img class="res-img" src="./img/3D Telegram.PNG">
 			</div>
 			<!-- End Image Third Gamemode -->
 		</div>
@@ -176,7 +240,7 @@
 		<div class="row votelist">
 			<!-- First Vote Link -->
 			<div class="col-md voteblock">
-				<img class="res-img-sm" src="C:\Users\Felix\OneDrive\Desktop\Webseite\img\Whatsapp.PNG">
+				<img class="res-img-sm" src="./img/Whatsapp.PNG">
 				<h2>Whatsapp</h2>
 				<a href="#">Mehr Erfahren</a>
 			</div>
@@ -184,7 +248,7 @@
 
 			<!-- Second Vote Link -->
 			<div class="col-md voteblock">
-				<img class="res-img-sm" src="C:\Users\Felix\OneDrive\Desktop\Webseite\img\Discord.PNG">
+				<img class="res-img-sm" src="./img/Discord.PNG">
 				<h2>Discord</h2>
 				<a href="#">Mehr Erfahren</a>
 			</div>
@@ -192,7 +256,7 @@
 
 			<!-- Third Vote Link -->
 			<div class="col-md voteblock">
-			  <img class="res-img-sm" src="C:\Users\Felix\OneDrive\Desktop\Webseite\img\Telegram.PNG">
+				<img class="res-img-sm" src="./img/Telegram.PNG">
 				<h2>Telegram</h2>
 				<a href="#">Mehr Erfahren</a>
 			</div>
@@ -200,7 +264,12 @@
 		</div>
 
 		<!-- Note -->
+<<<<<<< HEAD
 		<p>&nbsp;</p>
+=======
+		<p>Unser innovativer Chatbot ist jederzeit für Sie da – 24/7, ohne Unterbrechung, um all Ihre Fragen zu
+			beantworten.</p>
+>>>>>>> 6f03c211cec3d9332b752f000104932aeac9374f
 	</section>
 	<!-- End Vote Section -->
 
@@ -222,7 +291,8 @@
 			<div class="col-md staffblock">
 				<img width="100px;" src="">
 				<h2>1. Sind Chatbots sicher?</h2>
-				<p>Bei richtiger Implementierung und Wartung können Chatbots sicher verwendet werden, insbesondere wenn Datenschutzrichtlinien eingehalten werden</p>
+				<p>Bei richtiger Implementierung und Wartung können Chatbots sicher verwendet werden, insbesondere wenn
+					Datenschutzrichtlinien eingehalten werden</p>
 			</div>
 			<!-- End First Staff Member -->
 
@@ -230,7 +300,8 @@
 			<div class="col-md staffblock">
 				<img width="100px;" src="">
 				<h2>2. Können Chatbots menschliche Interaktionen ersetzen?</h2>
-				<p>Chatbots ergänzen menschliche Interaktionen, indem sie einfache Aufgaben automatisieren, können aber komplexe menschliche Emotionen und Feinheiten nicht vollständig ersetzen.</p>
+				<p>Chatbots ergänzen menschliche Interaktionen, indem sie einfache Aufgaben automatisieren, können aber
+					komplexe menschliche Emotionen und Feinheiten nicht vollständig ersetzen.</p>
 			</div>
 			<!-- End Second Staf Member -->
 
@@ -238,7 +309,8 @@
 			<div class="col-md staffblock">
 				<img width="100px;" src="">
 				<h2>3. Was ist ein Chatbot?</h2>
-				<p>Ein Chatbot ist ein Softwareprogramm, das automatisierte Unterhaltungen führt, um Nutzeranfragen in Echtzeit zu beantworten zu können.</p>
+				<p>Ein Chatbot ist ein Softwareprogramm, das automatisierte Unterhaltungen führt, um Nutzeranfragen in
+					Echtzeit zu beantworten zu können.</p>
 			</div>
 			<!-- End Third Staff Member -->
 		</div>
@@ -250,15 +322,17 @@
 			<div class="col-md staffblock">
 				<img width="100px;" src="">
 				<h2>4. Wo werden Chatbots eingesetzt?</h2>
-				<p>Chatbots finden Anwendung in vielen Bereichen, darunter Kundenservice, E-Commerce, Bildung und Gesundheitswesen.</p>
+				<p>Chatbots finden Anwendung in vielen Bereichen, darunter Kundenservice, E-Commerce, Bildung und
+					Gesundheitswesen.</p>
 			</div>
 			<!-- End Fourth Staff Member -->
 
-			<!-- Fifth Staff Member -->	
+			<!-- Fifth Staff Member -->
 			<div class="col-md staffblock">
 				<img width="100px;" src="">
 				<h2>5. Wie kann ich einen Chatbot für mein Unternehmen einsetzen?</h2>
-				<p>Zur Implementierung eines Chatbots sollten Sie Ihre Geschäftsbedürfnisse definieren, eine passende Plattform wählen und den Bot entsprechend trainieren.</p>
+				<p>Zur Implementierung eines Chatbots sollten Sie Ihre Geschäftsbedürfnisse definieren, eine passende
+					Plattform wählen und den Bot entsprechend trainieren.</p>
 			</div>
 			<!-- End Fifth Staff Member -->
 
@@ -266,7 +340,8 @@
 			<div class="col-md staffblock">
 				<img width="100px;" src="">
 				<h2>6. Wie funktionieren Chatbots?</h2>
-				<p>Chatbots nutzen künstliche Intelligenz und vorgegebene Skripte, um Fragen zu verstehen und darauf  reagieren zu können.</p>
+				<p>Chatbots nutzen künstliche Intelligenz und vorgegebene Skripte, um Fragen zu verstehen und darauf
+					reagieren zu können.</p>
 			</div>
 			<!-- End Sixth Staf Member -->
 		</div>
@@ -310,7 +385,9 @@
 				<!-- !! Replace this with your own domain !! -->
 				<p> &copy; | PROJECT X - CHATBOTS</p>
 				<!-- If you want to, you're allowed to delete these credits. But if you want to support my work, please leave it. -->
-			  <p>Made<font color="red">&nbsp;</font> by <a target="_blank" href="https://www.rickklaasboer.online/"></a>.Talha,Tim,Marc,Felix </font></p>
+				<p>Made<font color="red">&nbsp;</font> by <a target="_blank"
+						href="https://www.rickklaasboer.online/"></a>.Talha,Tim,Marc,Felix </font>
+				</p>
 			</div>
 		</div>
 	</footer>
@@ -319,62 +396,63 @@
 	<!-- Smooth Scrolling Script (from https://goo.gl/uWLqWu) | Do not touch if you don't know what you're doing! -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
-		$(document).ready(function(){
-		  // Add smooth scrolling to all links
-		  $("a").on('click', function(event) {
+		$(document).ready(function () {
+			// Add smooth scrolling to all links
+			$("a").on('click', function (event) {
 
-		    // Make sure this.hash has a value before overriding default behavior
-		    if (this.hash !== "") {
-		      // Prevent default anchor click behavior
-		      event.preventDefault();
+				// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+					// Prevent default anchor click behavior
+					event.preventDefault();
 
-		      // Store hash
-		      var hash = this.hash;
+					// Store hash
+					var hash = this.hash;
 
-		      // Using jQuery's animate() method to add smooth page scroll
-		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-		      $('html, body').animate({
-		        scrollTop: $(hash).offset().top
-		      }, 100, function(){
-		   
-		        // Add hash (#) to URL when done scrolling (default click behavior)
-		        window.location.hash = hash;
-		      });
-		    } // End if
-		  });
+					// Using jQuery's animate() method to add smooth page scroll
+					// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 100, function () {
+
+						// Add hash (#) to URL when done scrolling (default click behavior)
+						window.location.hash = hash;
+					});
+				} // End if
+			});
 		});
 	</script>
 	<!-- End Smooth Scrolling Script -->
 
 	<script>
 		function myFunction() {
-		    var x = document.getElementById("myTopnav");
-		    if (x.className === "topnav") {
-		        x.className += " responsive";
-		    } else {
-		        x.className = "topnav";
-		    }
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
 		}
 	</script>
 
 	<script>
-	// When the user scrolls down 20px from the top of the document, show the button
-	window.onscroll = function() {scrollFunction()};
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () { scrollFunction() };
 
-	function scrollFunction() {
-	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-	        document.getElementById("myBtn").style.display = "block";
-	    } else {
-	        document.getElementById("myBtn").style.display = "none";
-	    }
-	}
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}
 
-	// When the user clicks on the button, scroll to the top of the document
-	function topFunction() {
-	    document.body.scrollTop = 0;
-	    document.documentElement.scrollTop = 0;
-	}
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
 	</script>
-
+<script src="pagebot/script.js"></script>
 </body>
+
 </html>
