@@ -3,24 +3,24 @@
     bottom: 20px;
     right: 20px;
     width: 500px;
-    height: 500px;
-    border: 2px solid orange;
+    height: 700px;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: #1010559f;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.845);
     overflow: hidden;
     display: none;
     z-index: 9999; /* Setze einen hohen z-index-Wert */
 }
 
 #chatbot-header {
-    background-color: orange;
-    color: white;
+    background-color: rgb(31, 26, 26);
+    color: rgb(255, 255, 255);
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(60, 45, 99);
 }
 
 #chatbot-title {
@@ -30,7 +30,7 @@
 
 #chatbot-close {
     cursor: pointer;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 #chatbot-body {
@@ -38,22 +38,22 @@
 }
 
 #chatbot-messages {
-    max-height: 400px; /* Noch größere Höhe für die Nachrichten */
+    max-height: 600px; /* Noch größere Höhe für die Nachrichten */
     overflow-y: auto;
     margin-bottom: 20px;
     border-bottom: 2px solid #ccc;
 }
 #open-chatbot-btn {
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 120px;
+    right: 60px;
     width: 50px;
     height: 50px;
-    background-color: orange;
+    background-color: #1010559f;
     color: white;
     border: none;
-    border-radius: 50%;
-    font-size: 24px;
+    border-radius: 60%;
+    font-size: 50px;
     cursor: pointer;
 }
 #user-input {
@@ -69,185 +69,108 @@ button {
     width: 100%;
     padding: 20px;
     cursor: pointer;
-    background-color: orange;
+    background-color: #1010559f;
     color: white;
     border: none;
     border-radius: 10px;
-    font-size: 18px;#chatbot-container {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 500px;
-        height: 700px;
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 20px;
-        background-color: #1010559f;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.845);
-        overflow: hidden;
-        display: none;
-        z-index: 9999; /* Setze einen hohen z-index-Wert */
-    }
-    
-    #chatbot-header {
-        background-color: rgb(31, 26, 26);
-        color: rgb(255, 255, 255);
-        padding: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 2px solid rgb(60, 45, 99);
-    }
-    
-    #chatbot-title {
-        font-weight: bold;
-        font-size: 24px; /* Größere Schriftgröße */
-    }
-    
-    #chatbot-close {
-        cursor: pointer;
-        font-size: 20px;
-    }
-    
-    #chatbot-body {
-        padding: 20px;
-    }
-    
-    #chatbot-messages {
-        max-height: 600px; /* Noch größere Höhe für die Nachrichten */
-        overflow-y: auto;
-        margin-bottom: 20px;
-        border-bottom: 2px solid #ccc;
-    }
-    #open-chatbot-btn {
-        position: fixed;
-        bottom: 120px;
-        right: 60px;
-        width: 50px;
-        height: 50px;
-        background-color: #1010559f;
-        color: white;
-        border: none;
-        border-radius: 60%;
-        font-size: 50px;
-        cursor: pointer;
-    }
-    #user-input {
-        width: calc(100% - 40px); /* Volle Breite abzüglich 40px für den Rand */
-        padding: 20px;
-        margin-bottom: 20px;
-        border: 2px solid #ccc; /* Größerer grauer Rand */
-        border-radius: 10px;
-        font-size: 18px; /* Größere Schriftgröße */
-    }
-    
-    button {
-        width: 100%;
-        padding: 20px;
-        cursor: pointer;
-        background-color: #1010559f;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        font-size: 18px;
-    }#chatbot-container {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 500px;
-        height: 700px;
-        border: none; /* Entfernt den festen Rand */
-        border-radius: 20px;
-        background-color: rgba(17, 17, 17, 0.9); /* Dunkleres, transluzides Schwarz */
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Weicherer Schatten */
-        overflow: hidden;
-        display: none;
-        z-index: 9999;
-        transition: all 0.3s ease; /* Sanfter Übergang für alle Änderungen */
-    }
-    
-    #chatbot-header {
-        background-color: #202020; /* Ein dunklerer Grauton */
-        color: #FFF; /* Reinweiß für besseren Kontrast */
-        padding: 15px 20px; /* Etwas weniger vertikaler Abstand */
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 1px solid #333; /* Subtilerer Rand */
-    }
-    
-    #chatbot-title {
-        font-weight: 600; /* Etwas weniger Fett für Modernität */
-        font-size: 22px; /* Etwas kleinere Schrift für Eleganz */
-    }
-    
-    #chatbot-close {
-        cursor: pointer;
-        font-size: 24px; /* Einheitliche Größe */
-        transition: color 0.2s ease; /* Farbübergang für interaktives Feedback */
-    }
-    
-    #chatbot-close:hover {
-        color: #FF3B3B; /* Rotes Feedback beim Überfahren */
-    }
-    
-    #chatbot-body {
-        padding: 20px;
-        background: linear-gradient(to bottom, #111111 0%, #333333 100%); /* Subtiler Verlauf */
-        color: #EEE; /* Hellerer Text für besseren Kontrast */
-    }
-    
-    #chatbot-messages {
-        max-height: 550px; /* Angepasst für Verlauf im Hintergrund */
-        overflow-y: auto;
-        margin-bottom: 20px;
-        border-bottom: 1px solid #444; /* Subtilerer Rand */
-    }
-    
-    #open-chatbot-btn {
-        position: fixed;
-        bottom: 75px;
-        right: 30px;
-        width: 60px;
-        height: 120px;
-        background-color: #007bffc0; /* Helleres, auffälliges Blau */
-        color: white;
-        border: none;
-        border-radius: 13%;
-        font-size: 24px; /* Kleinere Schrift für das Icon */
-        cursor: pointer;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Weicherer Schatten */
-        transition: background-color 0.2s ease; /* Hintergrundfarbenübergang */
-    }
-    
-    #open-chatbot-btn:hover {
-        background-color: #007bffc0; /* Dunkleres Blau beim Überfahren */
-    }
-    
-    #user-input {
-        width: calc(100% - 40px);
-        padding: 10px 20px; /* Weniger Polsterung für mehr Platz */
-        margin-bottom: 20px;
-        border: 1px solid #555; /* Subtilerer Rand */
-        border-radius: 10px;
-        background-color: #222; /* Dunklerer Hintergrund */
-        color: #EEE; /* Hellerer Text */
-        font-size: 16px; /* Etwas kleinere Schrift */
-    }
-    
-    button {
-        width: 100%;
-        padding: 15px 20px; /* Angepasste Polsterung */
-        cursor: pointer;
-        background-color: #0055FF; /* Einheitliches Blau */
-        color: white;
-        border: none;
-        border-radius: 10px;
-        font-size: 18px;
-        transition: background-color 0.2s ease; /* Hintergrundfarbenübergang */
-    }
-    
-    button:hover {
-        background-color: #007BFF; /* Dunkleres Blau beim Überfahren */
-    }
-    
+    font-size: 18px;
+}#chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 500px;
+    height: 700px;
+    border: none; /* Entfernt den festen Rand */
+    border-radius: 20px;
+    background-color: rgba(17, 17, 17, 0.9); /* Dunkleres, transluzides Schwarz */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Weicherer Schatten */
+    overflow: hidden;
+    display: none;
+    z-index: 9999;
+    transition: all 0.3s ease; /* Sanfter Übergang für alle Änderungen */
+}
+
+#chatbot-header {
+    background-color: #202020; /* Ein dunklerer Grauton */
+    color: #FFF; /* Reinweiß für besseren Kontrast */
+    padding: 15px 20px; /* Etwas weniger vertikaler Abstand */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333; /* Subtilerer Rand */
+}
+
+#chatbot-title {
+    font-weight: 600; /* Etwas weniger Fett für Modernität */
+    font-size: 22px; /* Etwas kleinere Schrift für Eleganz */
+}
+
+#chatbot-close {
+    cursor: pointer;
+    font-size: 24px; /* Einheitliche Größe */
+    transition: color 0.2s ease; /* Farbübergang für interaktives Feedback */
+}
+
+#chatbot-close:hover {
+    color: #FF3B3B; /* Rotes Feedback beim Überfahren */
+}
+
+#chatbot-body {
+    padding: 20px;
+    background: linear-gradient(to bottom, #111111 0%, #333333 100%); /* Subtiler Verlauf */
+    color: #EEE; /* Hellerer Text für besseren Kontrast */
+}
+
+#chatbot-messages {
+    max-height: 550px; /* Angepasst für Verlauf im Hintergrund */
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #444; /* Subtilerer Rand */
+}
+
+#open-chatbot-btn {
+    position: fixed;
+    bottom: 75px;
+    right: 30px;
+    width: 60px;
+    height: 120px;
+    background-color: #007bffc0; /* Helleres, auffälliges Blau */
+    color: white;
+    border: none;
+    border-radius: 13%;
+    font-size: 24px; /* Kleinere Schrift für das Icon */
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Weicherer Schatten */
+    transition: background-color 0.2s ease; /* Hintergrundfarbenübergang */
+}
+
+#open-chatbot-btn:hover {
+    background-color: #007bffc0; /* Dunkleres Blau beim Überfahren */
+}
+
+#user-input {
+    width: calc(100% - 40px);
+    padding: 10px 20px; /* Weniger Polsterung für mehr Platz */
+    margin-bottom: 20px;
+    border: 1px solid #555; /* Subtilerer Rand */
+    border-radius: 10px;
+    background-color: #222; /* Dunklerer Hintergrund */
+    color: #EEE; /* Hellerer Text */
+    font-size: 16px; /* Etwas kleinere Schrift */
+}
+
+button {
+    width: 100%;
+    padding: 15px 20px; /* Angepasste Polsterung */
+    cursor: pointer;
+    background-color: #0055FF; /* Einheitliches Blau */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.2s ease; /* Hintergrundfarbenübergang */
+}
+
+button:hover {
+    background-color: #007BFF; /* Dunkleres Blau beim Überfahren */
 }
